@@ -14,7 +14,7 @@ if st.button("Send") and query:
         key=f.read()
 
     headers = {
-        "Authorization": f"Bearer {key}",  # Replace with your API key
+        "Authorization": f"Bearer {key}",  
         "Content-Type": "application/json"
     }
 
